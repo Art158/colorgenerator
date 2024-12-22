@@ -1,0 +1,70 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>DUOMOU</title>
+	<!-- erku hat@ esem drel der-->
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Кодировка страницы -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+		<header>
+		<div class="knop">
+			<button id="theme-toggle" class="toggle-button">
+    			<span class="toggle-circle"></span>
+			</button>
+		</div>
+		</header>
+			
+			
+ 
+			<div class="generator">
+				<table>
+  <tr valign="top">
+    <td>
+      <fieldset class="fl">
+        <p>
+          <label>Target color</label> <input class="target" type="text" placeholder="target hex" value="#00a4d6"/>
+        </p>
+        <button class="execute">Compute Filters</button>
+      </fieldset>
+      <p>Real pixel, color applied through CSS <code>background-color</code>:</p>
+      <div class="pixel realPixel"></div>
+
+      <p>Filtered pixel, color applied through CSS <code>filter</code>:</p>
+      <div class="pixel filterPixel"></div>
+<div class="meaning">
+      <p class="filterDetail"></p>
+      <p class="lossDetail"></p>
+      </div>
+    </td>
+ 
+  </tr>
+</table>
+
+			</div>
+		</main>
+	</div>
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> taki scriptn miacrel em spyler acordioni hamar -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/script.js"></script>
+<script src="js/popup.js"></script>
+</html>
